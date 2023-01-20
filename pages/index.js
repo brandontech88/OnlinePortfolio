@@ -22,7 +22,7 @@ import { useState, useEffect } from 'react';
 import Footer from '../pages/Footer';
 import Link from 'next/link';
 import tech from '../public/tech_bg.jpg';
-import tictactoe from '../public/tictactoe.png'
+import tictactoe from '../public/tictactoe.png';
 
 //import { Inter } from '@next/font/google'
 //const inter = Inter({ subsets: ['latin'] })
@@ -85,7 +85,7 @@ export default function Home() {
             <a href='https:www.youtube.com'><AiFillYoutube /></a>
           </div>
           <div className='relative mx-auto mt-20 mb-10 bg-gradient-to-b from-teal-500 rounded-full h-80 w-80 overflow-hidden md:h-100 md:100'>
-            <Image src={avi} fill objectFit="cover"/>
+            <Image src={avi} alt = '' fill objectFit="cover"/>
           </div>
         </section>
 
@@ -111,7 +111,7 @@ export default function Home() {
           
           <div className='lg:flex gap-10 '>
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
-              <Image src={design} width={100} height={100} className="mx-auto"/>
+              <Image src={design} alt = '' width={100} height={100} className="mx-auto"/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2'>
                 Creating elegant designs suited for your needs 
@@ -126,7 +126,7 @@ export default function Home() {
             </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
-              <Image src={code} width={100} height={100} className="mx-auto"/>
+              <Image src={code} alt = '' width={100} height={100} className="mx-auto"/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Designs</h3>
               <p className='py-2'>
                 Creating elegant designs suited for your needs 
