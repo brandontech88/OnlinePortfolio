@@ -11,18 +11,18 @@ import web2 from '../public/web2.png';
 import web3 from '../public/web3.png';
 import web4 from '../public/web4.png';
 import web5 from '../public/web5.png';
-import shop from '../public/shop.jpg';
-import photo from '../public/photo.jpg';
+ import shop from '../public/shop.jpg';
+ import photo from '../public/photo.jpg';
 import web6 from '../public/web6.png';
-import blog from '../public/blog.jpg';
-import chat from '../public/chat.jpg';
-import social from '../public/social.jpg';
-import movie from '../public/movie.jpg';
-import { useState, useEffect } from 'react';
-import Footer from '../pages/Footer';
-import Link from 'next/link';
-import tech from '../public/tech_bg.jpg';
-import tictactoe from '../public/tictactoe.png';
+// import blog from '../public/blog.jpg';
+// import chat from '../public/chat.jpg';
+// import social from '../public/social.jpg';
+// import movie from '../public/movie.jpg';
+ import { useState, useEffect } from 'react';
+ import Footer from '../pages/Footer';
+ import Link from 'next/link';
+// import tech from '../public/tech_bg.jpg';
+// import tictactoe from '../public/tictactoe.png';
 
 //import { Inter } from '@next/font/google'
 //const inter = Inter({ subsets: ['latin'] })
@@ -38,7 +38,7 @@ export default function Home() {
     }, 1000)
   });
 
-  let dateNow = new Date().toLocaleString();
+  //let dateNow = new Date().toLocaleString();
 
   return (
     <div className={darkMode ? 'dark' : ''}>
@@ -181,19 +181,19 @@ export default function Home() {
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <Link href='../../cms_blog/pages/index.tsx' className='basis-1/3 flex-1'>
               <div className='basis-1/3 flex-1'>
-                <Image alt='' src={blog} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive"/>
+                <Image alt='' src={web1} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive"/>
               </div>
             </Link>
 
 
 
-            <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={chat} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
-            <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={social} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
-            <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={movie} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
-            <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={shop} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
-            <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={photo} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
-            <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={tictactoe} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
-            <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={tictactoe} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
+            <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={web2} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
+            <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={web3} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
+            <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={web4} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
+            <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={web5} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
+            <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={web6} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
+            
+            
           </div>
         </section>
       </main>
