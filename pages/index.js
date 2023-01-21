@@ -22,7 +22,7 @@ import web6 from '../public/web6.png';
  import Footer from '../pages/Footer';
  import Link from 'next/link';
 // import tech from '../public/tech_bg.jpg';
-// import tictactoe from '../public/ticTacToe.png';
+// import tictactoe from '../public/tictactoe.png';
 
 //import { Inter } from '@next/font/google'
 //const inter = Inter({ subsets: ['latin'] })
