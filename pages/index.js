@@ -22,7 +22,7 @@ import web6 from '../public/web6.png';
  import Footer from '../pages/Footer';
  import Link from 'next/link';
 // import tech from '../public/tech_bg.jpg';
-// import tictactoe from '../public/tictactoe.png';
+// import tictactoe from '../public/ticTacToe.png';
 
 //import { Inter } from '@next/font/google'
 //const inter = Inter({ subsets: ['latin'] })
@@ -192,7 +192,7 @@ export default function Home() {
             <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={web4} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
             <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={web5} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
             <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={web6} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
-            
+          
             
           </div>
         </section>
