@@ -80,9 +80,9 @@ export default function Home() {
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-            <a href='https:www.twitter.com'><AiFillTwitterCircle /> </a>
-            <a href='https:www.linkedin.com'> <AiFillLinkedin /> </a>
-            <a href='https:www.youtube.com'><AiFillYoutube /></a>
+            <a href='https://www.twitter.com'><AiFillTwitterCircle /> </a>
+            <a href='https://www.linkedin.com'> <AiFillLinkedin /> </a>
+            <a href='https://www.youtube.com'><AiFillYoutube /></a>
           </div>
           <div className='relative mx-auto mt-20 mb-10 bg-gradient-to-b from-teal-500 rounded-full h-80 w-80 overflow-hidden md:h-100 md:100'>
             <Image src={avi} alt = '' fill objectFit="cover"/>
@@ -100,7 +100,7 @@ export default function Home() {
               Since the beginning of my journey, 
               I have done remote work for
               <span className='text-teal-500'> agencies</span> consulted for
-              <span className='text-teal-500'> startups</span> and coloborated
+              <span className='text-teal-500'> startups</span> and collaborated
               with talented people to create digital products for both business and
               consumer use.
             </p>
@@ -168,7 +168,7 @@ export default function Home() {
               Since the beginning of my journey, 
               I have done remote work for
               <span className='text-teal-500'> agencies</span> consulted for
-              <span className='text-teal-500'> startups</span> and coloborated
+              <span className='text-teal-500'> startups</span> and collaborated
               with talented people to create digital products for both business and
               consumer use.
             </p>
