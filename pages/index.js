@@ -23,6 +23,7 @@ import web6 from '../public/web6.png';
  import Link from 'next/link';
 // import tech from '../public/tech_bg.jpg';
 // import tictactoe from '../public/tictactoe.png';
+import VirtualBanking from '../public/virtual_banking.png';
 
 //import { Inter } from '@next/font/google'
 //const inter = Inter({ subsets: ['latin'] })
@@ -59,7 +60,7 @@ export default function Home() {
               <li>
                 <BsFillMoonStarsFill className='cursur-pointer text-2xl dark:text-gray-500' onClick={() => {setDarkMode(!darkMode)}}/>
               </li>
-              <li><a href='#' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>Resume</a></li>
+              <li><a href='https://github.com/brandontech88' className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'>Github</a></li>
             </ul>
           </nav>
 
@@ -187,7 +188,7 @@ export default function Home() {
 
 
 
-            <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={web2} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
+            <Link href='https://bright-halva-7712ff.netlify.app/' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={VirtualBanking} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
             <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={web3} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
             <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={web4} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
             <Link href='#' className='basis-1/3 flex-1'><div className='basis-1/3 flex-1'><Image src={web5} alt='' className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" /></div></Link>
